@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "Racesport";
+    src: url("Race\ Sport.ttf") format("truetype");
+}
+body { font-family: sans-serif; background: #1a1a2e; color: white; display: flex; gap: 20px; justify-content: center; padding: 20px; }
+.canvas-container-wrapper { position: relative; border: 2px solid #00d2ff; box-shadow: 0 0 20px rgba(0,210,255,0.2); }
+
+.controls { width: 320px; background: #16213e; padding: 15px; border-radius: 8px; height: 95vh; overflow-y: auto; }
+h2 { color: #00d2ff; margin-top: 0; }
+
+.control-group { margin-bottom: 15px; border-bottom: 1px solid #333; padding-bottom: 15px; }
+label { display: block; margin-bottom: 5px; font-size: 0.9em; color: #ccc; }
+select, input[type="text"], button, input[type="file"] { width: 100%; padding: 8px; margin-bottom: 5px; border-radius: 4px; border: none; box-sizing: border-box;}
+
+button { cursor: pointer; background: #0f3460; color: white; font-weight: bold; transition: 0.2s; border: 1px solid #00d2ff; }
+button:hover { background: #1a5db4; }
+.btn-green { background: #2ecc71; border-color: #27ae60; color: #fff; }
+.btn-red { background: #e74c3c; border-color: #c0392b; }
+
+/* Toggle Switch untuk Kalibrasi */
+.calibration-box { background: #2c3e50; padding: 10px; border-radius: 5px; border: 1px solid #f1c40f; margin-bottom: 20px; }
+.calibration-warning { font-size: 0.8em; color: #f1c40f; margin-top: 5px; }
